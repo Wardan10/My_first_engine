@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f5cafcb1-52ff-4cfe-9d0a-fa2c89814a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{102ad887-d977-4b86-ab84-535db90e17b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\engine\core.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Application.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_engine.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\entry_point.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\engine\Application.cpp">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
